@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+}
+.icon{
+    flex: 1;
+    margin-top: 73px;
+    margin-left: 55px;
+}
+.nav { 
+    margin-top: 55px;
+    background-color: rgba(32, 26, 48, 0.9);
+    padding: 20px 150px 20px 150px;
+}
+.line{
+    border-bottom: 1px solid rgb(80, 75, 75);
+    width: 350px;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    
+}
+a{
+    color: white;
+    padding: 18px;
+    text-decoration: none;
+}
+.para{
+    margin-left: 150px;
+    padding-top: 200px;
+}
+.para1{
+    font-size: 25px;
+    padding: 5PX;
+    margin: 15PX;
+}
+.para2{
+    font-size: 100px;
+    margin: 20PX;
+}
+.para3{
+    font-size: 15px;
+    width: 290px;
+    text-align: justify;
+    margin: 15PX;
+}
+.explore{
+   border: 2px solid none;
+   width: 180px;
+   height: 180px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1000px;
+    bottom: 170px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}

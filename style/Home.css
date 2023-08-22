@@ -5,9 +5,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 100vh;
     font-family:Arial, Helvetica, sans-serif;
 }
+.container-fluid{
+    height: 100vh;
+}
+
 .head{
     display: flex;
 }
@@ -30,9 +33,12 @@ body{
     
 }
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 18px;
     text-decoration: none;
+}
+.home{
+    border-bottom: 2px solid white;
 }
 .para{
     margin-left: 150px;
@@ -55,15 +61,15 @@ a{
 }
 .explore{
    border: 2px solid none;
-   width: 180px;
-   height: 180px;
-    border-radius: 90px;
+   width: 200px;
+   height: 200px;
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 1000px;
-    bottom: 170px;
+    left: 980px;
+    bottom: 190px;
     background-color: white;
     color: black;
     font-size: 30px;

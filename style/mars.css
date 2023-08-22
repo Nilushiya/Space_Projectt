@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.head{
+    display: flex;
+}
+.icon{
+    flex: 1;
+    margin-top: 73px;
+    margin-left: 55px;
+}
+.nav1 { 
+    margin-top: 55px;
+    background-color: rgba(32, 26, 48, 0.9);
+    padding: 20px 150px 20px 150px;
+    color: white;
+}
+.line{
+    border-bottom: 1px solid rgb(80, 75, 75);
+    width: 350px;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    
+}
+.nav1 a{
+    padding: 18px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+.destination{
+    border-bottom: 2px solid white;
+}
+.container-fluid h4{
+   color: rgb(240, 236, 236); 
+   padding: 40px 0px 40px 125px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   
+}
+.flex{
+    display: flex;
+}
+.right{
+    color: aliceblue;
+    flex: 1;
+    padding: 0px 200px 10px 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image{
+    flex: 1;
+    padding: 0px 0px 0px 190px;
+}
+.image img{
+   width: 360px;
+   height: 360px;
+}
+p{
+  width :300px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.line1{
+    border-bottom: 1px solid rgb(80, 75, 75);
+    width: 350px;
+    padding-bottom: 25px;
+}
+.right h1{
+    font-size: 90px;
+}
+.flex1{
+    padding-top: 20px;
+    display: flex;
+}
+.distance{
+    flex: 1;
+}
+.traveltime{
+    flex: 1;
+}
+.result{
+    font-size: 20px;
+}

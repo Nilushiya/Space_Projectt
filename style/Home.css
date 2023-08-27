@@ -6,6 +6,7 @@ body{
     background-size: cover;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
+    max-width: 1980px; 
 }
 .container-fluid{
     height: 100vh;
@@ -21,10 +22,10 @@ body{
 }
 .nav { 
     margin-top: 55px;
-    background-color: rgba(32, 26, 48, 0.9);
+    background-color:rgba(242, 241, 247, 0.2);
     padding: 20px 150px 20px 150px;
     font-size: 20PX;
-    
+    font-family: "Barlow Condensed", sans-serif;
 }
 .line{
     border-bottom: 1px solid rgb(80, 75, 75);
@@ -44,6 +45,7 @@ a{
 .para{
     margin-left: 150px;
     padding-top: 200px;
+    font-family: " Bellefair" ,serif;
 }
 .para1{
     font-size: 25px;
@@ -55,7 +57,7 @@ a{
     margin: 20PX;
 }
 .para3{
-    font-size: 15px;
+    font-size: 18px;
     width: 290px;
     text-align: justify;
     margin: 15PX;
@@ -74,4 +76,7 @@ a{
     background-color: white;
     color: black;
     font-size: 30px;
+}
+h4{
+    font-family: " Bellefair" ,serif;
 }

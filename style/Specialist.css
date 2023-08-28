@@ -58,7 +58,6 @@ body{
 }
 .image{
     flex: 1;
-    margin-right: 160px;
     margin-top: 45px;
 }
 .image img{
@@ -71,7 +70,7 @@ body{
 }
 .left h3{
     font-size: 45px;
-    width: 500px;
+    width: 600px;
 }
 .para{
     font-size: 18px;
@@ -88,6 +87,6 @@ body{
     margin-top: 50px;
     margin-left: 10px;
 }
-.select .engineer{
+.select .specialist{
     background-color: rgb(241, 241, 246);
 }
